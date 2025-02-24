@@ -1,12 +1,208 @@
-# aaarif796.github.io
-<html>
-  <head>
-    <meta charset="uft-8">
-    <title>Hello </title>
-  </head>
-  <body>
-    <h1>Hello I am here.</h1>
-    <img src="DSC_0755 (2)_edit.jpg">
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohammad Aarif Ansari - Portfolio</title>
+  <!-- Updated CSS -->
+  <link rel="stylesheet" href="styles/styles.css" />
+  <!-- Font Awesome and Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>Mohammad Aarif Ansari</h1>
+      <nav>
+        <ul>
+          <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+          <li><a href="#projects"><i class="fas fa-laptop-code"></i> Projects</a></li>
+          <li><a href="#skills"><i class="fas fa-tools"></i> Skills</a></li>
+          <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+          <li><a href="#achievements"><i class="fas fa-trophy"></i> Achievements</a></li>
+          <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+      </nav>
+      
+    </div>
+  </header>
+  
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="container">
+      <div class="hero-content animate__animated">
+        <!-- Small DP image styled like a social media profile picture -->
+        <div class="profile-image">
+          <img src="images/profile.jpg" alt="Mohammad Aarif Ansari">
+        </div>
+        <h2>
+          <span class="highlight">Mohammad Aarif Ansari</span> 
+          
+        </h2>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn"><i class="fas fa-laptop-code"></i> View My Work</a>
+          <a href="resume/resume.pdf" class="btn outline" download><i class="fas fa-download"></i> Download Resume</a>
+        </div>
+        <div class="social-links animate__animated">
+          <a href="https://github.com/your-username" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/your-profile" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.kaggle.com/your-username" target="_blank"><i class="fab fa-kaggle"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2><i class="fas fa-user"></i> About Me</h2>
+      <div class="about-content">
+        <p>
+          I am an AI enthusiast with a passion for Machine Learning, Python, and Computer Vision. Currently pursuing my Master of Computer Applications (MCA) at the University of Hyderabad, I am eager to learn and adapt to new technologies. I have hands-on experience in deep learning, data augmentation, and building end-to-end applications. My goal is to excel in Software Engineering and contribute to innovative AI solutions.
+        </p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2><i class="fas fa-laptop-code"></i> Projects</h2>
+      <div class="project-grid">
+        <div class="project-card animate__animated">
+          <h3>Skin Lesion Classification</h3>
+          <p>
+            A hybrid deep learning and machine learning project for skin lesion classification using GAN-based data augmentation.
+          </p>
+          <p><strong>Technologies:</strong> TensorFlow, Keras, OpenCV, Scikit-learn, GANs, ResNet50</p>
+          <a href="https://github.com/your-username/skin-lesion-classification" class="btn" target="_blank">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+        <div class="project-card animate__animated">
+          <h3>Coding Practice Application</h3>
+          <p>
+            A platform for students to view and solve coding questions with automated test case validation.
+          </p>
+          <p><strong>Technologies:</strong> Django, SQLite, HTML, CSS, Jinja</p>
+          <a href="https://github.com/your-username/coding-practice-app" class="btn" target="_blank">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2><i class="fas fa-tools"></i> Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category animate__animated">
+          <h3><i class="fas fa-code"></i> Programming Languages</h3>
+          <ul>
+            <li>Python</li>
+            <li>C</li>
+            <li>Java</li>
+          </ul>
+        </div>
+        <div class="skill-category animate__animated">
+          <h3><i class="fas fa-cogs"></i> Frameworks</h3>
+          <ul>
+            <li>Django</li>
+            <li>Flask</li>
+            <li>Streamlit</li>
+            <li>Spring Boot</li>
+          </ul>
+        </div>
+        <div class="skill-category animate__animated">
+          <h3><i class="fas fa-brain"></i> Data Science & AI</h3>
+          <ul>
+            <li>Classification</li>
+            <li>Regression</li>
+            <li>Neural Networks</li>
+            <li>CNN</li>
+            <li>GANs</li>
+          </ul>
+        </div>
+        <div class="skill-category animate__animated">
+          <h3><i class="fas fa-toolbox"></i> Tools</h3>
+          <ul>
+            <li>Git</li>
+            <li>Jira</li>
+            <li>LaTeX</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Education Section -->
+  <section id="education" class="education">
+    <div class="container">
+      <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+      <div class="education-timeline">
+        <div class="education-item animate__animated">
+          <h3>Master of Computer Application (MCA)</h3>
+          <p>University of Hyderabad, Hyderabad</p>
+          <p>2023-2025</p>
+        </div>
+        <div class="education-item animate__animated">
+          <h3>Bachelor of Computer Application (BCA)</h3>
+          <p>Bangalore North University, Bangalore</p>
+          <p>2019-2022</p>
+          <p>CGPA: 9.13/10 (First Class Exemplary)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Achievements Section -->
+  <section id="achievements" class="achievements">
+    <div class="container">
+      <h2><i class="fas fa-trophy"></i> Achievements</h2>
+      <ul class="animate__animated">
+        <li>Ranked 1st in the 2nd and 3rd semester of MCA.</li>
+        <li>Winner of the Coding and Debugging Competition at VITRINA 2022.</li>
+        <li>Graduated BCA with grade A+, First Class Exemplary (CGPA: 9.13/10).</li>
+      </ul>
+    </div>
+  </section>
+  
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2><i class="fas fa-envelope"></i> Contact Me</h2>
+      <form id="contact-form" class="animate__animated">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn"><i class="fas fa-paper-plane"></i> Send Message</button>
+      </form>
+      <div class="social-links animate__animated">
+        <a href="https://github.com/your-username" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/your-profile" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.kaggle.com/your-username" target="_blank"><i class="fab fa-kaggle"></i></a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="social-links">
+        <a href="https://github.com/your-username" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/your-profile" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.kaggle.com/your-username" target="_blank"><i class="fab fa-kaggle"></i></a>
+      </div>
+      <p>&copy; 2024 Mohammad Aarif Ansari. All rights reserved.</p>
+    </div>
+  </footer>
+  
+  <!-- Updated JavaScript -->
+  <script src="scripts/script.js"></script>
+</body>
 </html>
-
