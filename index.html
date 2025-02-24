@@ -4,12 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mohammad Aarif Ansari - Portfolio</title>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   <!-- Updated CSS -->
   <link rel="stylesheet" href="styles/styles.css" />
   <!-- Font Awesome and Animate.css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
 </head>
 <body>
   <!-- Header -->
@@ -172,32 +172,31 @@
     </div>
   </section>
   
-  <!-- Contact Section -->
   <section id="contact" class="contact">
     <div class="container">
-      <h2><i class="fas fa-envelope"></i> Contact Me</h2>
-      <form id="contact-form" class="animate__animated">
-        <input type="text" id="name" placeholder="Your Name" required>
-        <input type="email" id="email" placeholder="Your Email" required>
-        <textarea id="message" placeholder="Your Message" required></textarea>
-        <button type="submit" class="btn"><i class="fas fa-paper-plane"></i> Send Message</button>
-      </form>
-      <div class="social-links animate__animated">
-        <a href="https://github.com/your-username" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/your-profile" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="https://www.kaggle.com/your-username" target="_blank"><i class="fab fa-kaggle"></i></a>
-      </div>
+        <h2><i class="fas fa-envelope"></i> Contact Me</h2>
+        
+        <!-- Email Address with Icon -->
+        <div class="email-contact">
+            <a href="mailto:your.email@example.com">
+                <i class="fas fa-envelope-open-text"></i>
+                mohammadaarif796@gmail.com
+            </a>
+        </div>
+
+        <!-- Social Links -->
+        <div class="social-links animate__animated">
+            <a href="https://github.com/your-username" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/your-profile" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.kaggle.com/your-username" target="_blank"><i class="fab fa-kaggle"></i></a>
+        </div>
     </div>
   </section>
   
   <!-- Footer -->
   <footer>
     <div class="container">
-      <div class="social-links">
-        <a href="https://github.com/your-username" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/your-profile" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="https://www.kaggle.com/your-username" target="_blank"><i class="fab fa-kaggle"></i></a>
-      </div>
+      
       <p>&copy; 2024 Mohammad Aarif Ansari. All rights reserved.</p>
     </div>
   </footer>
